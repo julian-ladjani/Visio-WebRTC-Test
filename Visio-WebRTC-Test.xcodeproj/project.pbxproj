@@ -14,8 +14,6 @@
 		A21A5147249A44FD003C22C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21A5146249A44FD003C22C7 /* Assets.xcassets */; };
 		A21A514A249A44FD003C22C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21A5149249A44FD003C22C7 /* Preview Assets.xcassets */; };
 		A21A514D249A44FD003C22C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21A514B249A44FD003C22C7 /* LaunchScreen.storyboard */; };
-		A21A5158249A44FD003C22C7 /* Visio_WebRTC_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A5157249A44FD003C22C7 /* Visio_WebRTC_TestTests.swift */; };
-		A21A5163249A44FD003C22C7 /* Visio_WebRTC_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A5162249A44FD003C22C7 /* Visio_WebRTC_TestUITests.swift */; };
 		A21A5173249A54AD003C22C7 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A5172249A54AD003C22C7 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,11 +45,7 @@
 		A21A514C249A44FD003C22C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A21A514E249A44FD003C22C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A21A5153249A44FD003C22C7 /* Visio-WebRTC-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Visio-WebRTC-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A21A5157249A44FD003C22C7 /* Visio_WebRTC_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visio_WebRTC_TestTests.swift; sourceTree = "<group>"; };
-		A21A5159249A44FD003C22C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A21A515E249A44FD003C22C7 /* Visio-WebRTC-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Visio-WebRTC-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A21A5162249A44FD003C22C7 /* Visio_WebRTC_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visio_WebRTC_TestUITests.swift; sourceTree = "<group>"; };
-		A21A5164249A44FD003C22C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A21A5172249A54AD003C22C7 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		F1FE823D89AADFE59B5B853E /* Pods-Visio-WebRTC-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Visio-WebRTC-Test.debug.xcconfig"; path = "Target Support Files/Pods-Visio-WebRTC-Test/Pods-Visio-WebRTC-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		FC67779351CA2615A349CD63 /* Pods-Visio-WebRTC-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Visio-WebRTC-Test.release.xcconfig"; path = "Target Support Files/Pods-Visio-WebRTC-Test/Pods-Visio-WebRTC-Test.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,8 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				A21A513F249A44FC003C22C7 /* Visio-WebRTC-Test */,
-				A21A5156249A44FD003C22C7 /* Visio-WebRTC-TestTests */,
-				A21A5161249A44FD003C22C7 /* Visio-WebRTC-TestUITests */,
 				A21A513E249A44FC003C22C7 /* Products */,
 				7F9A74F3FEF599B629521ABF /* Pods */,
 				691FCE95D344C8B62788F84B /* Frameworks */,
@@ -143,24 +135,6 @@
 				A21A5149249A44FD003C22C7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A21A5156249A44FD003C22C7 /* Visio-WebRTC-TestTests */ = {
-			isa = PBXGroup;
-			children = (
-				A21A5157249A44FD003C22C7 /* Visio_WebRTC_TestTests.swift */,
-				A21A5159249A44FD003C22C7 /* Info.plist */,
-			);
-			path = "Visio-WebRTC-TestTests";
-			sourceTree = "<group>";
-		};
-		A21A5161249A44FD003C22C7 /* Visio-WebRTC-TestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A21A5162249A44FD003C22C7 /* Visio_WebRTC_TestUITests.swift */,
-				A21A5164249A44FD003C22C7 /* Info.plist */,
-			);
-			path = "Visio-WebRTC-TestUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,7 +323,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A21A5158249A44FD003C22C7 /* Visio_WebRTC_TestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +330,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A21A5163249A44FD003C22C7 /* Visio_WebRTC_TestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
