@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D45F27BEBCB74AC4C00A4A1 /* Pods_Visio_WebRTC_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C194C54BA68C8863E2DA621 /* Pods_Visio_WebRTC_Test.framework */; };
+		A21A5141249A44FC003C22C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A5140249A44FC003C22C7 /* AppDelegate.swift */; };
+		A21A5143249A44FC003C22C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A5142249A44FC003C22C7 /* SceneDelegate.swift */; };
+		A21A5145249A44FC003C22C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A5144249A44FC003C22C7 /* ContentView.swift */; };
+		A21A5147249A44FD003C22C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21A5146249A44FD003C22C7 /* Assets.xcassets */; };
+		A21A514A249A44FD003C22C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21A5149249A44FD003C22C7 /* Preview Assets.xcassets */; };
+		A21A514D249A44FD003C22C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21A514B249A44FD003C22C7 /* LaunchScreen.storyboard */; };
+		A21A5158249A44FD003C22C7 /* Visio_WebRTC_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A5157249A44FD003C22C7 /* Visio_WebRTC_TestTests.swift */; };
+		A21A5163249A44FD003C22C7 /* Visio_WebRTC_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A5162249A44FD003C22C7 /* Visio_WebRTC_TestUITests.swift */; };
+		A21A5173249A54AD003C22C7 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A5172249A54AD003C22C7 /* ContentViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A21A5154249A44FD003C22C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A21A5135249A44FC003C22C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A21A513C249A44FC003C22C7;
+			remoteInfo = "Visio-WebRTC-Test";
+		};
+		A21A515F249A44FD003C22C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A21A5135249A44FC003C22C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A21A513C249A44FC003C22C7;
+			remoteInfo = "Visio-WebRTC-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C194C54BA68C8863E2DA621 /* Pods_Visio_WebRTC_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Visio_WebRTC_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21A513D249A44FC003C22C7 /* Visio-WebRTC-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Visio-WebRTC-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21A5140249A44FC003C22C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A21A5142249A44FC003C22C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A21A5144249A44FC003C22C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A21A5146249A44FD003C22C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A21A5149249A44FD003C22C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A21A514C249A44FD003C22C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A21A514E249A44FD003C22C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21A5153249A44FD003C22C7 /* Visio-WebRTC-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Visio-WebRTC-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21A5157249A44FD003C22C7 /* Visio_WebRTC_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visio_WebRTC_TestTests.swift; sourceTree = "<group>"; };
+		A21A5159249A44FD003C22C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21A515E249A44FD003C22C7 /* Visio-WebRTC-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Visio-WebRTC-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21A5162249A44FD003C22C7 /* Visio_WebRTC_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visio_WebRTC_TestUITests.swift; sourceTree = "<group>"; };
+		A21A5164249A44FD003C22C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21A5172249A54AD003C22C7 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		F1FE823D89AADFE59B5B853E /* Pods-Visio-WebRTC-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Visio-WebRTC-Test.debug.xcconfig"; path = "Target Support Files/Pods-Visio-WebRTC-Test/Pods-Visio-WebRTC-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		FC67779351CA2615A349CD63 /* Pods-Visio-WebRTC-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Visio-WebRTC-Test.release.xcconfig"; path = "Target Support Files/Pods-Visio-WebRTC-Test/Pods-Visio-WebRTC-Test.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A21A513A249A44FC003C22C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D45F27BEBCB74AC4C00A4A1 /* Pods_Visio_WebRTC_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21A5150249A44FD003C22C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21A515B249A44FD003C22C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		691FCE95D344C8B62788F84B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C194C54BA68C8863E2DA621 /* Pods_Visio_WebRTC_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F9A74F3FEF599B629521ABF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1FE823D89AADFE59B5B853E /* Pods-Visio-WebRTC-Test.debug.xcconfig */,
+				FC67779351CA2615A349CD63 /* Pods-Visio-WebRTC-Test.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A21A5134249A44FC003C22C7 = {
+			isa = PBXGroup;
+			children = (
+				A21A513F249A44FC003C22C7 /* Visio-WebRTC-Test */,
+				A21A5156249A44FD003C22C7 /* Visio-WebRTC-TestTests */,
+				A21A5161249A44FD003C22C7 /* Visio-WebRTC-TestUITests */,
+				A21A513E249A44FC003C22C7 /* Products */,
+				7F9A74F3FEF599B629521ABF /* Pods */,
+				691FCE95D344C8B62788F84B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A21A513E249A44FC003C22C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A21A513D249A44FC003C22C7 /* Visio-WebRTC-Test.app */,
+				A21A5153249A44FD003C22C7 /* Visio-WebRTC-TestTests.xctest */,
+				A21A515E249A44FD003C22C7 /* Visio-WebRTC-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A21A513F249A44FC003C22C7 /* Visio-WebRTC-Test */ = {
+			isa = PBXGroup;
+			children = (
+				A21A5140249A44FC003C22C7 /* AppDelegate.swift */,
+				A21A5142249A44FC003C22C7 /* SceneDelegate.swift */,
+				A21A5144249A44FC003C22C7 /* ContentView.swift */,
+				A21A5146249A44FD003C22C7 /* Assets.xcassets */,
+				A21A514B249A44FD003C22C7 /* LaunchScreen.storyboard */,
+				A21A514E249A44FD003C22C7 /* Info.plist */,
+				A21A5148249A44FD003C22C7 /* Preview Content */,
+				A21A5172249A54AD003C22C7 /* ContentViewModel.swift */,
+			);
+			path = "Visio-WebRTC-Test";
+			sourceTree = "<group>";
+		};
+		A21A5148249A44FD003C22C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A21A5149249A44FD003C22C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A21A5156249A44FD003C22C7 /* Visio-WebRTC-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A21A5157249A44FD003C22C7 /* Visio_WebRTC_TestTests.swift */,
+				A21A5159249A44FD003C22C7 /* Info.plist */,
+			);
+			path = "Visio-WebRTC-TestTests";
+			sourceTree = "<group>";
+		};
+		A21A5161249A44FD003C22C7 /* Visio-WebRTC-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A21A5162249A44FD003C22C7 /* Visio_WebRTC_TestUITests.swift */,
+				A21A5164249A44FD003C22C7 /* Info.plist */,
+			);
+			path = "Visio-WebRTC-TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A21A513C249A44FC003C22C7 /* Visio-WebRTC-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21A5167249A44FD003C22C7 /* Build configuration list for PBXNativeTarget "Visio-WebRTC-Test" */;
+			buildPhases = (
+				CC5EC9534D349A3E490DA31E /* [CP] Check Pods Manifest.lock */,
+				A21A5139249A44FC003C22C7 /* Sources */,
+				A21A513A249A44FC003C22C7 /* Frameworks */,
+				A21A513B249A44FC003C22C7 /* Resources */,
+				615413EE5BB7146EEDD97C83 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Visio-WebRTC-Test";
+			productName = "Visio-WebRTC-Test";
+			productReference = A21A513D249A44FC003C22C7 /* Visio-WebRTC-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A21A5152249A44FD003C22C7 /* Visio-WebRTC-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21A516A249A44FD003C22C7 /* Build configuration list for PBXNativeTarget "Visio-WebRTC-TestTests" */;
+			buildPhases = (
+				A21A514F249A44FD003C22C7 /* Sources */,
+				A21A5150249A44FD003C22C7 /* Frameworks */,
+				A21A5151249A44FD003C22C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A21A5155249A44FD003C22C7 /* PBXTargetDependency */,
+			);
+			name = "Visio-WebRTC-TestTests";
+			productName = "Visio-WebRTC-TestTests";
+			productReference = A21A5153249A44FD003C22C7 /* Visio-WebRTC-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A21A515D249A44FD003C22C7 /* Visio-WebRTC-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21A516D249A44FD003C22C7 /* Build configuration list for PBXNativeTarget "Visio-WebRTC-TestUITests" */;
+			buildPhases = (
+				A21A515A249A44FD003C22C7 /* Sources */,
+				A21A515B249A44FD003C22C7 /* Frameworks */,
+				A21A515C249A44FD003C22C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A21A5160249A44FD003C22C7 /* PBXTargetDependency */,
+			);
+			name = "Visio-WebRTC-TestUITests";
+			productName = "Visio-WebRTC-TestUITests";
+			productReference = A21A515E249A44FD003C22C7 /* Visio-WebRTC-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A21A5135249A44FC003C22C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "julian ladjani";
+				TargetAttributes = {
+					A21A513C249A44FC003C22C7 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					A21A5152249A44FD003C22C7 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = A21A513C249A44FC003C22C7;
+					};
+					A21A515D249A44FD003C22C7 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = A21A513C249A44FC003C22C7;
+					};
+				};
+			};
+			buildConfigurationList = A21A5138249A44FC003C22C7 /* Build configuration list for PBXProject "Visio-WebRTC-Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A21A5134249A44FC003C22C7;
+			productRefGroup = A21A513E249A44FC003C22C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A21A513C249A44FC003C22C7 /* Visio-WebRTC-Test */,
+				A21A5152249A44FD003C22C7 /* Visio-WebRTC-TestTests */,
+				A21A515D249A44FD003C22C7 /* Visio-WebRTC-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A21A513B249A44FC003C22C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21A514D249A44FD003C22C7 /* LaunchScreen.storyboard in Resources */,
+				A21A514A249A44FD003C22C7 /* Preview Assets.xcassets in Resources */,
+				A21A5147249A44FD003C22C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21A5151249A44FD003C22C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21A515C249A44FD003C22C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		615413EE5BB7146EEDD97C83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Visio-WebRTC-Test/Pods-Visio-WebRTC-Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Visio-WebRTC-Test/Pods-Visio-WebRTC-Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Visio-WebRTC-Test/Pods-Visio-WebRTC-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC5EC9534D349A3E490DA31E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Visio-WebRTC-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A21A5139249A44FC003C22C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21A5173249A54AD003C22C7 /* ContentViewModel.swift in Sources */,
+				A21A5141249A44FC003C22C7 /* AppDelegate.swift in Sources */,
+				A21A5143249A44FC003C22C7 /* SceneDelegate.swift in Sources */,
+				A21A5145249A44FC003C22C7 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21A514F249A44FD003C22C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21A5158249A44FD003C22C7 /* Visio_WebRTC_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21A515A249A44FD003C22C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21A5163249A44FD003C22C7 /* Visio_WebRTC_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A21A5155249A44FD003C22C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A21A513C249A44FC003C22C7 /* Visio-WebRTC-Test */;
+			targetProxy = A21A5154249A44FD003C22C7 /* PBXContainerItemProxy */;
+		};
+		A21A5160249A44FD003C22C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A21A513C249A44FC003C22C7 /* Visio-WebRTC-Test */;
+			targetProxy = A21A515F249A44FD003C22C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A21A514B249A44FD003C22C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21A514C249A44FD003C22C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A21A5165249A44FD003C22C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A21A5166249A44FD003C22C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A21A5168249A44FD003C22C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1FE823D89AADFE59B5B853E /* Pods-Visio-WebRTC-Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Visio-WebRTC-Test/Preview Content\"";
+				DEVELOPMENT_TEAM = M9NP66PQPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Visio-WebRTC-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diabetips.Visio-WebRTC-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A21A5169249A44FD003C22C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC67779351CA2615A349CD63 /* Pods-Visio-WebRTC-Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Visio-WebRTC-Test/Preview Content\"";
+				DEVELOPMENT_TEAM = M9NP66PQPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Visio-WebRTC-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diabetips.Visio-WebRTC-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A21A516B249A44FD003C22C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9NP66PQPV;
+				INFOPLIST_FILE = "Visio-WebRTC-TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diabetips.Visio-WebRTC-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visio-WebRTC-Test.app/Visio-WebRTC-Test";
+			};
+			name = Debug;
+		};
+		A21A516C249A44FD003C22C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9NP66PQPV;
+				INFOPLIST_FILE = "Visio-WebRTC-TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diabetips.Visio-WebRTC-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visio-WebRTC-Test.app/Visio-WebRTC-Test";
+			};
+			name = Release;
+		};
+		A21A516E249A44FD003C22C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9NP66PQPV;
+				INFOPLIST_FILE = "Visio-WebRTC-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diabetips.Visio-WebRTC-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Visio-WebRTC-Test";
+			};
+			name = Debug;
+		};
+		A21A516F249A44FD003C22C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9NP66PQPV;
+				INFOPLIST_FILE = "Visio-WebRTC-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diabetips.Visio-WebRTC-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Visio-WebRTC-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A21A5138249A44FC003C22C7 /* Build configuration list for PBXProject "Visio-WebRTC-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21A5165249A44FD003C22C7 /* Debug */,
+				A21A5166249A44FD003C22C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21A5167249A44FD003C22C7 /* Build configuration list for PBXNativeTarget "Visio-WebRTC-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21A5168249A44FD003C22C7 /* Debug */,
+				A21A5169249A44FD003C22C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21A516A249A44FD003C22C7 /* Build configuration list for PBXNativeTarget "Visio-WebRTC-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21A516B249A44FD003C22C7 /* Debug */,
+				A21A516C249A44FD003C22C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21A516D249A44FD003C22C7 /* Build configuration list for PBXNativeTarget "Visio-WebRTC-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21A516E249A44FD003C22C7 /* Debug */,
+				A21A516F249A44FD003C22C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A21A5135249A44FC003C22C7 /* Project object */;
+}
