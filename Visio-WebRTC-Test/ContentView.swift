@@ -22,7 +22,7 @@ struct ContentView: View {
                     Spacer()
                 }
                 List {
-                    ForEach(viewModel.peers, id: \.self) { peer in
+                    ForEach(0..<viewModel.peers.count, id: \.self) { peer in
                         Text("Remote \(peer)")
                     }.onDelete { idx in
                         self.viewModel.deletePeer(index: idx)
