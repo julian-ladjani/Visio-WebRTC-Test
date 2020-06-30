@@ -45,7 +45,9 @@ class ContentViewModel: ObservableObject {
         )]
         config = RTCConfiguration()
         config.iceServers = servers
-        config.sdpSemantics = .unifiedPlan
+        config.maxIPv6Networks = 0
+        config.disableLinkLocalNetworks = true
+
         localPeerConnection = factory.peerConnection(with: config, constraints: loopbackConstraints, delegate: nil)
 
 
