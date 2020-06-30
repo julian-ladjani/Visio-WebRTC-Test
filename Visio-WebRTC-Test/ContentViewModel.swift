@@ -18,10 +18,11 @@ class ContentViewModel: ObservableObject {
         RTCInitializeSSL()
         let videoEncoderFactory = RTCDefaultVideoEncoderFactory()
         let videoDecoderFactory = RTCDefaultVideoDecoderFactory()
+
         return RTCPeerConnectionFactory(encoderFactory: videoEncoderFactory, decoderFactory: videoDecoderFactory)
     }()
     private var localDataChannel: RTCDataChannel?
-    private var remoteDataChannels: RTCDataChannel?
+    private var remoteDataChannels: [RTCDataChannel] = []
     private let localPeerConnection: RTCPeerConnection
     private let loopbackConstraints = RTCMediaConstraints(
         mandatoryConstraints: nil,
@@ -44,9 +45,15 @@ class ContentViewModel: ObservableObject {
         )]
         config = RTCConfiguration()
         config.iceServers = servers
+        config.maxIPv6Networks = 0
+        config.disableIPV6 = true
+        config.disableIPV6OnWiFi = true
+        config.disableLinkLocalNetworks = true
         config.sdpSemantics = .unifiedPlan
-        config.continualGatheringPolicy = .gatherContinually
+        config.continualGatheringPolicy = .gatherOnce
+        config.candidateNetworkPolicy = .all
         localPeerConnection = factory.peerConnection(with: config, constraints: loopbackConstraints, delegate: nil)
+
 
         Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] (timer) in
             guard let number = self?.getFileDescriptors() else { return }
@@ -74,7 +81,9 @@ class ContentViewModel: ObservableObject {
                 guard let answerDescription = answerDescription else { return }
                 peerConnection.setLocalDescription(answerDescription, completionHandler: { _ in })
                 self?.localPeerConnection.setRemoteDescription(answerDescription, completionHandler: { _ in })
-                self?.peers.append(peerConnection)
+                DispatchQueue.main.async {
+                    self?.peers.append(peerConnection)
+                }
             }
         }
     }

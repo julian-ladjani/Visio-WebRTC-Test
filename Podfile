@@ -6,4 +6,5 @@ target 'Visio-WebRTC-Test' do
   use_modular_headers!
 
   pod 'GoogleWebRTC', :podspec => 'https://raw.githubusercontent.com/julian-ladjani/GoogleWebRTC/master/podspec.json'
+  #pod "WebRTC"
 end

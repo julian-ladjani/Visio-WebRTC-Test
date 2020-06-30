@@ -1,5 +1,5 @@
 PODS:
-  - GoogleWebRTC (1.0.7)
+  - GoogleWebRTC (1.1.1)
 
 DEPENDENCIES:
   - GoogleWebRTC (from `https://raw.githubusercontent.com/julian-ladjani/GoogleWebRTC/master/podspec.json`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :podspec: https://raw.githubusercontent.com/julian-ladjani/GoogleWebRTC/master/podspec.json
 
 SPEC CHECKSUMS:
-  GoogleWebRTC: b91742555f6708f362b28936dc2369f432f781ec
+  GoogleWebRTC: 201ffaadc8e8cc75a021d65a4e76ee0043a31374
 
-PODFILE CHECKSUM: f7d6f19f0a9c70670cf265dd9b41f7b0dd4d48fa
+PODFILE CHECKSUM: c9652881d10bfa04d7aeadbd056209963142cda3
 
 COCOAPODS: 1.9.1
